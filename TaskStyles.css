@@ -1,0 +1,114 @@
+html,body {
+    height:100%;
+    padding:0;
+    margin:0;
+}
+
+a {
+    display: block;
+    width: 100%;
+    justify-self: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+}
+
+.headerDiv {
+    width: 24.8%;
+    box-sizing: inherit; 
+    padding: 8px 16px;
+    font-size: 18px;
+    background-color: #f1f1f1!important;
+}
+
+.headerDiv:hover {
+    background-color: #ccc!important;
+    cursor: pointer;
+}
+
+.arrows {
+    background-color: #ccc!important;
+}
+
+.arrows:hover {
+    background-color: #14850a!important;
+    cursor: pointer;
+}
+
+ul:hover {
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
+
+li {
+    border-bottom: 1px solid #ddd;
+    padding: 16px;
+}
+
+button {
+    color: white;
+    border: 0px;
+}
+
+button:hover {
+    color: #000!important;
+    background-color: #ccc!important;
+    cursor: pointer;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    box-sizing: border-box;
+  }
+
+input[type=submit] {
+    width: 100%;
+    padding: 8px 0px;
+    border: 0px;
+    background-color: #000;
+    color: white;
+    cursor: pointer;
+  }
+  
+input[type=submit]:hover {
+    background-color: #ccc;
+    color: #000;
+  }
+
+.toTheTop {
+    padding: 8px 16px;
+    background-color: #000;
+    color: white;
+  }
+
+.toTheTop:hover {
+    cursor: pointer;
+    color: #000!important;
+    background-color :#ccc;
+  }
+
+  .fa-arrow-up {
+    content: "\f062";
+}
+
+.poweredBy {
+    text-decoration: underline;
+     display: inline;
+}
+
+.poweredBy:hover {
+    color: #4c5daf;
+}
